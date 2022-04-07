@@ -1,0 +1,11 @@
+---
+apiVersion: v2
+name: crossplane-argocd
+description: A Helm chart for deploying EKS cluster
+type: application
+version: 2.0.0
+appVersion: "2.0"
+dependencies:
+- name: crossplane
+  version: 1.6.4
+  repository: https://charts.crossplane.io/stable
